@@ -1,0 +1,286 @@
+
+/* ----------------------start navbar------------------------- */
+
+
+
+nav{
+    background-color: rgb(27, 27, 27);    
+}
+.club-name{
+    font-size: 1.6em;
+    color: orange;
+    text-shadow: 0  0px 10px orange;
+    font-weight:600 ;
+    transition: 0.5s ease;
+}
+.club-name:hover{
+    color: orange;
+    text-decoration: none;
+    text-shadow: 0  0px 0px orange;
+
+}
+#navbarText{
+    font-size: 1.3em;
+    color: orange;
+    background-color: rgb(27, 27, 27);
+    margin: auto;
+}
+.nav-link{
+    color: silver;
+}
+.nav-link:hover{
+    color: orange;
+}
+
+.list-btn{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(27, 27, 27);
+    border: 0px solid orange;
+    border-radius: 5px;
+    margin-top:-30px ;
+}
+
+
+ .list-icon span{
+    direction: rtl;
+    display: block;
+    height: 4px;
+    background-color: orange;
+    margin-bottom: 5px;
+    border-radius: 1.5px;
+}
+
+
+/* ----------------------start slider-------------------------- */
+
+
+
+
+
+/* -----------------------start feutaires------------------ */
+.feutures{
+    padding: 30px;
+}
+.container h2{
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-weight: 800;
+    text-shadow: 0px  0px 20px rgb(27, 27, 27) ;
+    font-size: 2em;
+
+}
+.col{
+    padding: 15px;
+    margin: 20px ;
+    margin-right: auto;
+    box-shadow: 0px 0px 20px 3px rgb(27, 27, 27);
+    border-radius: 0.2rem;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+.col i{
+    margin-bottom: 10px;
+    display: inline-block;
+    color:orange;
+    font-size: 60px;
+}
+
+.col h4{
+    color: orange;
+}
+.col p {
+    color: silver;
+}
+
+/*-------------------------------- start our team  */
+
+.our-team{
+    padding:0 10% ;
+}
+.our-team h2{
+    text-align: center;
+    color: rgb(27, 27, 27);
+    font-weight: 800;
+    text-shadow: 0px  0px 20px rgb(27, 27, 27) ;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.our-team .row{
+    justify-content: center;
+   
+}
+.card{
+    text-align: center;
+    margin:0 15px 15px 30px;
+    border-radius: 5rem;
+    border: n;
+    background-color:rgb(27, 27, 27) ;
+}
+.card-body{
+    padding: 0;
+    border: 4px solid orange;
+    border-top: 0;
+    box-shadow: 0 0 80px 3px rgba(0, 0, 0, 0.473) inset;
+    transition: 0.5s ease;
+}
+.card:hover .card-body{
+   
+    box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.473) inset;
+}
+
+.card-body h4 {
+    font-size: 1.7em;
+    text-shadow: 0 0px 5px black;
+    color: orange;
+    
+
+}
+
+
+/* -----------------------------------------start fixed img */
+
+
+.fixed-img{
+    background-image: url(../img/img-ficxed.jpg);
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.fixed-img .dvrlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+    text-align: center;
+    padding-top: 70px;
+}
+
+.text-fixed h3{
+
+    font-size: 3em;
+    color: orange;
+    
+}
+.text-fixed h4{
+    font-size:3rem;
+    
+    color: white;
+}
+
+/* -------------------start footer */
+footer{
+    background-color: rgb(27, 27, 27);
+    color: orange;
+    padding: 30px;
+}
+.footer-title h2{
+    color: orange;
+    text-align: start;
+    font-weight: 400;
+}
+footer h4{
+    font-weight: 400;
+
+}
+.footer-title p{
+    color: white;
+}
+footer a{
+    color: orange;
+}
+footer a:hover{
+    color: white;
+}
+footer ul li{
+    list-style: none;
+}
+
+
+
+footer .footer-soshel i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+
+
+.footer1{
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+}
+.footer1 a{
+    color: rgb(27, 27, 27);
+    font-weight: bold;
+}
+.footer1 a:hover{
+    color: white;
+}
+
+
+
+
+/* -------------------news page */
+.BG-news{
+    
+    background-color: rgba(0, 0, 0, 0.767);
+    transition: 0.7s ease;
+    color: white;
+    overflow: hidden;
+    
+}
+.BG-news:hover{
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    
+
+}
+.news-card{
+    margin: 10px;
+}
+
+
+/* --------------contact-page-------- */
+.main-about{
+    background: linear-gradient(180deg , rgb(27 , 27, 27),rgb(71, 71, 71));
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+
+}
+.main-about h1{
+    margin: 2em 0;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.text1{
+    width: 90%;
+    margin-bottom:50px ;
+    
+}
+.text1 h4{
+    color: orange;
+    margin-left: 20px;
+
+}
+.text1{
+    color: white;
+    
+}
+.medel-teaxt {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
