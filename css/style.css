@@ -9,14 +9,13 @@ nav{
 .club-name{
     font-size: 1.6em;
     color: orange;
-/*     text-shadow: 0  0px 10px orange; */
     font-weight:600 ;
     transition: 0.5s ease;
 }
 .club-name:hover{
     color: orange;
     text-decoration: none;
-    text-shadow: 0  0px 0px orange;
+    
 
 }
 #navbarText{
